@@ -28,7 +28,7 @@
   .content {
     width: 100%;
     padding: 0 1rem;
-    text-align: center;
+    text-align: left;
   }
   
   .content h2 {
@@ -40,6 +40,11 @@
     display: flex;
     gap: 0.5rem;
     align-items: center;
+    text-decoration: none;
+  }
+
+  .urlLink a {
+    text-decoration: none;
   }
   
   .date svg,

@@ -4,7 +4,7 @@ const DUMMY_EVENTS = [
       title: 'DBT-in-Practice Workshop with Victoria Perez Mola',
       description:
         'We are excited to announce this upcoming event on dbt. This is going to be a great workshop for those of you wanting to take your DBT knowledge to the next level!',
-      location: 'This event is going to take place over Zoom https://us02web.zoom.us/j/83296187457?pwd=VG9RR0dSMWZCYU9YSU1rdW8xNDlYQT09.',
+      location: 'https://us02web.zoom.us/j/83296187457?pwd=VG9RR0dSMWZCYU9YSU1rdW8xNDlYQT09',
       date: '2021-09-26',
       time: '11:00am - 12:30pm',
       image: 'images/games-event.jpg',

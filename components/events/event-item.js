@@ -13,7 +13,10 @@ function EventItem(props) {
     year: "numeric",
   });
 
-  const formattedAddress = location.replace("?", "?\n");
+  const formattedAddress = location;
+  // const formattedAddress = location.replace("?", "?\n");
+
+  const urlAddress = <a href={formattedAddress} target="_blank">{formattedAddress}</a>
 
   const exploreEvent = `/events/${id}`;
 
@@ -36,7 +39,7 @@ function EventItem(props) {
           </div>
           <div className={classes.address}>
             {/* <AddressIcon /> */}
-            <address>{formattedAddress}</address>
+            <address className={classes.urlLink}>{urlAddress}</address>
           </div>
         </div>
         

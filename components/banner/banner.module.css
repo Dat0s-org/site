@@ -22,34 +22,50 @@
 }
 
 .bannersubtext {
+    font-size: 1.5em;
     position: absolute;
     font-weight: 700;
-    top: 23%;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.aboutUsplaceholder {
+    font-size: 0.9em;
+    position: absolute;
+    font-weight: 700;
+    line-height: 1.2em;
+    top: 80%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
 @media (max-width: 1100px) {
     .bannersubtext {
+        font-size: 1.2em;
         position: absolute;
         font-weight: 700;
-        top: 26%;
+        top: 28%;
         left: 50%;
         transform: translate(-50%, -50%);
     }
 }
 
 @media (max-width: 800px) {
+    .bannertext {
+        font-size: 3em;
+    }
     .bannersubtext {
+        line-height: 1.0em;
         position: absolute;
         font-weight: 700;
-        top: 29%;
+        top: 31%;
         left: 50%;
         transform: translate(-50%, -50%);
     }
 }
 
-@media (min-width: 200px) and (max-width: 665px) {
+/* @media (min-width: 200px) and (max-width: 665px) {
     .bannertext {
         font-size: 4em;
         font-weight: 700;
@@ -57,33 +73,51 @@
         top: 15%;
         left: 50%;
         transform: translate(-50%, -50%);
+        
     }
 
     .bannersubtext {
         position: absolute;
+        font-size: 1em;
         font-weight: 700;
         top: 33%;
         left: 50%;
         transform: translate(-50%, -50%);
     }
-}
+} */
 
 @media (min-width: 320px) and (max-width: 550px) {
     .bannertext {
-        font-size: 2.5em;
+        font-size: 1.5em;
         font-weight: 700;
-        position: absolute;
+        /* position: absolute;
         top: 15%;
-        left: 20%;
-        transform: translate(-50%, -50%);
+        left: 17%;
+        transform: translate(-50%, -50%); */
     }
 
     .bannersubtext {
-        font-size: 0.9em;
+        font-size: 0.7em;
+        font-weight: 700;
+        line-height: 1.2em;
+        margin-top: -3px;
+        /* font-size: 0.9em;
         position: absolute;
         font-weight: 700;
         line-height: 1.2em;
         top: 20%;
+        left: 66%;
+        transform: translate(-50%, -50%);
+        white-space: nowrap;
+        word-spacing: -2px; */
+    }
+
+    .aboutUsplaceholder {
+        font-size: 0.9em;
+        position: absolute;
+        font-weight: 700;
+        line-height: 1.2em;
+        top: 25%;
         left: 75%;
         transform: translate(-50%, -50%);
     }
